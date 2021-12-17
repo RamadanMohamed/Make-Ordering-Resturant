@@ -1,0 +1,34 @@
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\bin\Debug\Resturant Booking.exe.config
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\bin\Debug\Resturant Booking.exe
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\bin\Debug\Resturant Booking.pdb
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.csproj.AssemblyReference.cache
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\MainWindow.g.cs
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\App.g.cs
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking_MarkupCompile.cache
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking_MarkupCompile.lref
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\MainWindow.baml
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.g.resources
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\Resturant_Booking.Properties.Resources.resources
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.csproj.GenerateResource.cache
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.csproj.CoreCompileInputs.cache
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.exe
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.pdb
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\Print.g.cs
+C:\Users\zedan net\source\repos\Resturant Booking\Resturant Booking\obj\Debug\print.baml
+D:\iti\.netcore\Resturant Booking\Resturant Booking\bin\Debug\Resturant Booking.exe.config
+D:\iti\.netcore\Resturant Booking\Resturant Booking\bin\Debug\Resturant Booking.exe
+D:\iti\.netcore\Resturant Booking\Resturant Booking\bin\Debug\Resturant Booking.pdb
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.csproj.AssemblyReference.cache
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\MainWindow.g.cs
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\print.g.cs
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\App.g.cs
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking_MarkupCompile.cache
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking_MarkupCompile.lref
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\MainWindow.baml
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\print.baml
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.g.resources
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\Resturant_Booking.Properties.Resources.resources
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.csproj.GenerateResource.cache
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.csproj.CoreCompileInputs.cache
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.exe
+D:\iti\.netcore\Resturant Booking\Resturant Booking\obj\Debug\Resturant Booking.pdb

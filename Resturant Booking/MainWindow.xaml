@@ -1,0 +1,75 @@
+﻿<Window x:Class="Resturant_Booking.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Resturant_Booking"
+    mc:Ignorable="d"
+        Title="MainWindow" Height="797.326" Width="959.893">
+    <Grid Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="217*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="49*"/>
+            <RowDefinition Height="58*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="403*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="111*"/>
+            <ColumnDefinition Width="112*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="name_client" HorizontalAlignment="Left" Height="40" Margin="104,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" TextAlignment="Center" TextChanged="name_client_TextChanged"/>
+        <TextBox x:Name="address" HorizontalAlignment="Left" Height="40" Margin="104,157,0,0" TextWrapping="Wrap" Text="&#x9;" VerticalAlignment="Top" Width="262" TextAlignment="Center"/>
+        <TextBox x:Name="phone_number" HorizontalAlignment="Left" Height="40" Margin="101,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" Grid.RowSpan="3">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.527"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Numberpay_pal" HorizontalAlignment="Left" Height="40" Margin="104,4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" TextAlignment="Center" Grid.Row="3"/>
+        <Grid Margin="151,227,70,40" Grid.Row="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="142*"/>
+                <ColumnDefinition Width="81*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="      Print Report    &#xA;" HorizontalAlignment="Left" Margin="208,-120,-466,0" VerticalAlignment="Top" Width="339" Height="66" RenderTransformOrigin="0.499,0.357" Click="PrintReport" FontSize="18" Grid.Column="1" FlowDirection="RightToLeft" />
+            <ComboBox x:Name="combobox" HorizontalAlignment="Left" Margin="-115,-185,0,0" VerticalAlignment="Top" Width="100" Height="45" RenderTransformOrigin="-0.714,-1.779">
+                <ComboBoxItem Content="Coffee"></ComboBoxItem>
+                <ComboBoxItem Content="Tea With Mint"></ComboBoxItem>
+                <ComboBoxItem Content="Apple Juice"></ComboBoxItem>
+                <ComboBoxItem Content="Milk"></ComboBoxItem>
+                <ComboBoxItem Content="Iced Tea"></ComboBoxItem>
+                <ComboBoxItem Content="strawberry Juice"></ComboBoxItem>
+                <ComboBoxItem Content="Mingo Juice"></ComboBoxItem>
+            </ComboBox>
+        </Grid>
+        <DataGrid Name="datagrid" HorizontalAlignment="Left" Height="200" Margin="35,113,0,0" VerticalAlignment="Top" Width="348" Padding="1" Panel.ZIndex="2" Grid.Column="1" Grid.RowSpan="4">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Product Name" Width="100" Binding="{Binding ProductName}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Quantity"  Width="100" Binding="{Binding Quentity}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Selling Price" Width="80" Binding="{Binding priceproduct}"></DataGridTextColumn>
+                <DataGridTextColumn Header=" Total Of Price" Width="60" Binding="{Binding total}"></DataGridTextColumn>
+            </DataGrid.Columns>
+
+
+        </DataGrid>
+        <TextBox x:Name="quentity" HorizontalAlignment="Left" Height="37" Margin="157,46,0,0" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center"/>
+        <TextBox x:Name="price" HorizontalAlignment="Left" Height="38" Margin="301,46,0,0" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center"/>
+        <Button x:Name="addbuttom" Content="Add Product" HorizontalAlignment="Left" Margin="61,167,0,0" Grid.Row="5" VerticalAlignment="Top" Width="126" Height="60" Click="AddtoGrid" RenderTransformOrigin="0.684,1.267"/>
+        <Label Content="Product Name" HorizontalAlignment="Left" Margin="35,12,0,0" Grid.Row="5" VerticalAlignment="Top" Height="34" Width="92"/>
+        <Label Content="Quantity" HorizontalAlignment="Left" Margin="174,9,0,0" Grid.Row="5" VerticalAlignment="Top" Height="34" Width="92"/>
+        <Label Content="Selling Price" HorizontalAlignment="Left" Margin="312,5,0,0" Grid.Row="5" VerticalAlignment="Top" Height="34" Width="92"/>
+        <Label Content="Client Name " HorizontalAlignment="Left" Margin="-5,95,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.195,1.307" Height="26" Width="79"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="10,157,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.005,0.116" Height="26" Width="47"/>
+        <Label Content="Phone Number" HorizontalAlignment="Left" Margin="-5,0,0,32" Width="90" Grid.Row="1" Grid.RowSpan="2" RenderTransformOrigin="0.955,0.472"/>
+        <Label Content="Receipt number" HorizontalAlignment="Left" Margin="-5,4,0,28" RenderTransformOrigin="0.501,-0.134" Width="94" Grid.Row="3"/>
+        <Button Content="Rest" HorizontalAlignment="Left" Margin="240,167,0,0" Grid.Row="5" VerticalAlignment="Top" Width="126" Height="60" Click="reset"/>
+        <TextBox x:Name="gettotal" Grid.Column="1" HorizontalAlignment="Left" Height="42" Margin="253,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" Grid.RowSpan="2" Grid.Row="3"/>
+
+    </Grid>
+</Window>
